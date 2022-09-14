@@ -1,0 +1,126 @@
+/* CSS reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body - Scroll down for instructions */
+
+body {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 11px;
+  padding: 1rem;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  border-radius: 11px;
+  background-color: #ffe7e7;
+  color: #d33a2c;
+  padding: 1rem 1.2rem;
+  display: block;
+  margin: 2px;
+}
+
+
+
+
+
+.evenly-spaced {
+
+
+display: flex;
+justify-content: space-evenly;
+
+}
+
+
+
+/************** 2. Equally distributed Nav **************/
+
+.space-distributed ul {
+
+
+display: flex;
+
+}
+
+.space-distributed li {
+
+
+  flex:  auto;
+}
+
+
+
+/************** 3.  A split Nav **************/
+
+.split-nav {
+
+display: flex;
+
+}
+
+.split-nav .push-right {
+  
+  margin-left: auto;
+
+}
+
+
+
+/************** 4.  A split Nav **************/
+
+.split-nav-push-left {
+
+display: flex;
+
+  margin: 0 -10px;
+}
+
+.split-nav-push-left li {
+  margin: 0 10px;
+}
+
+.split-nav-push-left .push-left {
+  margin-right: auto;
+}
+
+
+
+/************** 5.  A split Nav **************/
+
+
+.split-nav-Centre {
+  
+  display: flex;
+}
+
+.centre {
+  
+flex: 1;
+}
